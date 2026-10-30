@@ -3,9 +3,8 @@ const cors = require("cors");
 const fetch = require("node-fetch");
 const app = express();
 
-// ============================================================================
-// ⚙️ CONFIGURACIÓN RÁPIDA (Edita aquí desde GitHub si necesitas cambiar algo)
-// ============================================================================
+// ---------------------------------------
+// variables
 const CONFIG = {
     // 1. Ruta que expondrá este proxy en Railway
     PROXY_ROUTE: "/api/levapan/pdv",
@@ -16,7 +15,7 @@ const CONFIG = {
     // 3. Token de autorización
     API_TOKEN: process.env.API_TOKEN || "9b7661d9292aab2c339b95bf251063791c2a62ff",
 };
-// ============================================================================
+// ---------------------------------------
 
 const PORT = process.env.PORT || 3000;
 
