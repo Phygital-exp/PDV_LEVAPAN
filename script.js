@@ -113,9 +113,7 @@ function renderResults(results) {
                         <li><strong>SAP:</strong> ${result.SAP ?? 'N/A'}
                             <i class="material-icons copy-icon" role="button" tabindex="0" aria-label="Copiar SAP" onclick="copyToClipboard('${result.SAP}', 'SAP')">content_copy</i>
                         </li>
-                        <li><strong>NIT:</strong> ${result.NIT ?? 'N/A'}
-                            <i class="material-icons copy-icon" role="button" tabindex="0" aria-label="Copiar NIT" onclick="copyToClipboard('${result.NIT}', 'NIT')">content_copy</i>
-                        </li>
+                        <li><strong>NIT:</strong> ${result.NIT ?? 'N/A'}</li>
                         <li><strong>Razón Social:</strong> ${result['Razon Social'] || 'N/A'}</li>
                         <li><strong>Dirección:</strong> ${result.Direccion || result.DIRECCION || 'N/A'}</li>
                         <li><strong>Población:</strong> ${poblacion || 'N/A'}</li>
